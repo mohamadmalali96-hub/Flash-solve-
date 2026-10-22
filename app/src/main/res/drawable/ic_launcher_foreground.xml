@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Circular HUD reticle -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00E676"
+        android:strokeWidth="2.5"
+        android:pathData="M54,26 A28,28 0 1,0 54,82 A28,28 0 1,0 54,26 Z" />
+    <!-- Dynamic Lightning Bolt / Instant Solver Mark -->
+    <path
+        android:fillColor="#F59E0B"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="0.8"
+        android:pathData="M56,29 L41,53 L53,53 L47,79 L67,49 L55,49 Z" />
+    <!-- Quantum / AI Accent Spark -->
+    <path
+        android:fillColor="#00E676"
+        android:pathData="M69,33 A3.5,3.5 0 1,0 69,40 A3.5,3.5 0 1,0 69,33 Z" />
+</vector>

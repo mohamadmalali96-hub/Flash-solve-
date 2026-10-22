@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FlashSolve</string>
+    <string name="overlay_service_title">FlashSolve Floating Assistant</string>
+    <string name="overlay_service_desc">Real-time AI quiz &amp; math solver HUD active</string>
+    <string name="action_start_overlay">Launch Floating HUD</string>
+    <string name="action_stop_overlay">Close Floating HUD</string>
+    <string name="permission_required_title">Overlay Permission Required</string>
+    <string name="permission_required_desc">FlashSolve needs "Display over other apps" permission to float above your quiz and educational apps.</string>
+    <string name="grant_permission">Grant Overlay Permission</string>
+    <string name="status_ready">Active / جاهز</string>
+    <string name="status_stopped">Standby / متوقف</string>
+    <string name="hud_solve_now">Solve / حل الآن</string>
+    <string name="hud_play">Start / تشغيل</string>
+    <string name="hud_stop">Stop / إيقاف</string>
+    <string name="answer_label">Correct Answer</string>
+    <string name="explanation_label">Explanation</string>
+    <string name="test_sandbox_title">AI Quiz &amp; Math Sandbox</string>
+    <string name="test_sandbox_desc">Test the Gemini Flash solver directly with Arabic &amp; English questions.</string>
+</resources>

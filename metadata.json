@@ -1,0 +1,6 @@
+{
+  "name": "FlashSolve",
+  "description": "Ultra-fast floating quiz & math solver powered by Gemini Flash with bilingual Arabic and English instant answer HUD.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
