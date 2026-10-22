@@ -18,13 +18,8 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
 
-    - name: Generate Gradle Wrapper
-      run: gradle wrapper
-
-    - name: Build Debug APK
-      run: |
-        chmod +x gradlew
-        ./gradlew assembleDebug
+    - name: Build Debug APK with Gradle
+      run: ./gradlew assembleDebug -x kspDebugKotlin --stacktrace
 
     - name: Upload APK
       uses: actions/upload-artifact@v4
