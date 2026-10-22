@@ -18,14 +18,14 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
 
-    - name: Grant execute permission for gradlew
-      run: chmod +x gradlew
+    - name: Setup Gradle
+      uses: gradle/gradle-build-action@v2
 
-    - name: Build APK with Gradle
-      run: ./gradlew assembleDebug --stacktrace
+    - name: Build Debug APK
+      run: gradle assembleDebug --stacktrace
 
-    - name: Upload APK Artifact
+    - name: Upload APK
       uses: actions/upload-artifact@v4
       with:
-        name: FlashSolve-App
-        path: app/build/outputs/apk/debug/app-debug.apk
+        name: FlashSolve-APK
+        path: '**/build/outputs/apk/debug/*.apk'
